@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body and navigation section start */
+
+.body-section{
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+.bg-cover{
+    background-color:rgba(36,17,10, .6);
+}
+
+
+.headin-title h1{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #DF8633;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-bottom: 0;   
+    letter-spacing: 3px; 
+}
+.headin-title h2{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;       
+}
+nav ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+/* body and navigation section over */
+/* Home daperment start */
+.intro-text{
+    background-color:rgba(224,220, 219, .9);
+}
+.intro-text h2{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;    
+    text-transform: uppercase;
+}
+.intro-text h3{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.intro-text p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 27px;
+    font-size: 15px;
+}
+.button-div button{
+   background-color: rgba(211,153,79 , 1);
+}
+.promise-section{
+    background-color: rgba(211,153,79 , .9);
+    
+}
+.promise-text{
+    background-color: rgba(224,220, 219, .9);
+  
+     
+}
+.border-div{
+    border: 5px solid  rgba(211,153,79 , .9);
+    margin: 80px auto;
+    padding: 4px;
+    width: 80%;
+   
+}
+.promise-text h3{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.promise-text h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    }
+    .promise-text p{
+        font-size: 15px;
+        line-height: 28px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .footer{
+        background-color:rgba(45,22,15, .8);
+    }
+    /* Home daperment over */
+    /* about  deparment start */
+    .about-text{
+        background-color:rgba(224,220, 219, .9);
+    }
+    .about-text h3{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    .about-text h4{
+        font-size: 3rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+    .about-text p{
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 30px;
+    }
+    /* about  deparment over */
+
+
+    /* Product deparment start */
+    .product-item-title, .product-item-title-ciken , .product-item-title-last{
+        background-color: rgba(224,220, 219, .9);
+    }
+    .section-heading-upper{
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .section-heading-lower{
+        font-size: 2.8rem;
+        font-family: 'Times New Roman', Times, serif;        
+        text-transform: uppercase;
+    }
+    .product-item-description , .product-item-description-bakery{
+        background-color: rgba(224,220, 219, .9);
+    }
+    .product-item-description p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+     /* Product deparment over */
+     /* store daperment start */
+.open-section{
+    background-color: rgba(240, 177, 96, 0.9);
+    text-align: center;
+    margin-top: 100px;
+}
+.open-text{
+    background-color: rgba(224,220, 219, .9);
+}
+.open-border-div{
+    width: 80%;
+}
+.open-text h4{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.open-text h5{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.open-text ul li{
+list-style: none;
+border-bottom: 2px solid  rgba(211,153,79 , .9);
+max-width: 60%;
+margin: 0 auto;
+padding-top: 15px;
+font-size: 15px;
+font-style: italic;
+}
+ .open-border-div {
+    border: 5px solid rgba(211,153,79 , .9);
+     padding: 4px;
+     margin: 90px auto;
+ }  
+  .list-hours2-item {
+      color: rgba(211,153,79 , .9);
+      font-weight: bold;
+  }
+@media screen and (max-width:991px){
+    /*Home daperment  */
+    .navbar{
+        background-color:rgba(45,22,15, .8) ;
+    }
+
+
+}
+@media screen and (min-width:992px){
+    /* Home daperment start */
+    .collapse ul li{
+       padding: 7px;
+    }
+    .collapse ul li a{
+        margin-left: 25px;
+    }
+   nav{
+       background-color: rgba(45,22,15, .8);      
+   }
+   .intro{
+    position: relative;
+   }
+   .intro-img{
+       width: 70%;
+       margin-left: 30%;
+       
+   }
+   .intro-text{
+       max-width: 55%;
+       max-height: 75%;
+       position: absolute;
+       bottom: 0%;
+       top: 6%;      
+       
+   }
+   /* Home daperment over */
+  /* about daperment start */
+  .about{
+    position: relative;
+   }
+   .about-text{
+       max-width: 75%;
+       max-height: 100%;
+       position: absolute;
+       bottom: 0;
+       left: 12%;
+       margin-bottom: -25%;   
+      
+       
+   }
+   .about-footer{
+       margin-top: 30%;
+   }
+  /* about daperment over */
+  /* product daperment start */
+  .product-item-description{
+    width: 60%;
+    position: absolute;
+    bottom: -20%;
+}
+.product-item-title{
+    max-width: 50%;
+    margin-left: 55%;
+    position: absolute;
+    bottom: 92%;    
+}
+.product-item{
+    position: relative;
+}
+.page-section{
+    margin-top: 250px;
+}
+.description-top{
+margin-top: 28%;
+}
+.product-item-title-ciken{
+    max-width: 55%;    
+    position: absolute;
+    bottom: 92%;
+}
+.product-item-description-bakery{
+    max-width: 65%;
+    position: absolute;
+    bottom: -22%;
+    left: 35%;
+}
+.product-item-title-last{
+    max-width: 65%;    
+    position: absolute;
+    bottom: 92%;
+    margin-left: 40%;
+}
+/* product daperment over */
+
+
+}
